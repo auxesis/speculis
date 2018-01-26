@@ -18,7 +18,7 @@ go get -u -v $REPO
 
 # Graph
 cd $GOPATH/src/$REPO
-godepgraph -s -p $IGNORE_PREFIXES $REPO | tee $DOTFILE
+godepgraph -s $REPO | tee $DOTFILE
 
 # Visualise
 cat $DOTFILE | dot -Tpdf -o $PDF
