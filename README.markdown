@@ -1,8 +1,8 @@
 # Speculis
 
-Speculis tracks metadata about how modular popular open source projects are.
+Speculis tracks metadata about how modular open source projects are.
 
-By tracking how modular open source projects are, we can categorise as having a core-periphery, borderline, multi-core, or hierarchical technical structure.
+By tracking how modular open source projects are, we can categorise them as having core-periphery, borderline, multi-core, or hierarchical technical structures.
 
 The approach is based heavily on the research by Carliss Baldwin, Alan MacCormack, and John Rusnak in their 2014 paper [Hidden Structure: Using Network Methods to Map System Architecture](http://www.hbs.edu/faculty/Publication%20Files/13-093_3011858c-cd52-494b-b58b-f46af7331e85.pdf).
 
@@ -50,5 +50,5 @@ Ruby:
 
 Golang:
 
- - >= 1.9.2
+ - &gt;= 1.9.2
  - `godepgraph`
